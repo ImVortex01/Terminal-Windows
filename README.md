@@ -20,6 +20,11 @@
   mkdir [nombre_del_directorio]
   ```
 
+  - **notepad**: Puedes abrir Notepad desde la terminal y crear un nuevo archivo
+  ```cmd
+  notepad archivo.txt
+  ```
+
 - **del**: Elimina un archivo.
   ```cmd
   del [nombre_del_archivo]
@@ -53,6 +58,16 @@
   ```cmd
   ipconfig
   ```
+  
+- **netstat**: Muestra las estadísticas del protocolo y las conexiones TCP/IP
+  ```cmd
+  netstat
+  ```
+
+- **getmac**: Devuelve la dirección del control de acceso multimedia (MAC).
+  ```cmd
+  getmac
+  ```
 
 ## Otros Comandos Útiles
 
@@ -64,4 +79,14 @@
 - **echo**: Muestra mensajes en el terminal o redirige la salida a un archivo.
   ```cmd
   echo [mensaje]
+  ```
+  
+- **winget list**: Lista todas las aplicaciones instaladas.
+  ```cmd
+  winget list
+  ```
+
+- **winget upgrade --all**: Actualiza todas las aplicaciones instaladas.
+  ```cmd
+  winget upgrade --all
   ```
